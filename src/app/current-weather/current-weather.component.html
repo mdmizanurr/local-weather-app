@@ -7,7 +7,7 @@
   <div>
     <img [src]='current.image' style="width: 40px; height: 30px;"> <span>{{current.temperature | number:'1.0-0'}} °F</span>
   </div>
-  <div> {{current.description}}</div>
+  <div> {{current.description | uppercase}}</div>
 
 </div>
 
